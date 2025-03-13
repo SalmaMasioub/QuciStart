@@ -15,6 +15,12 @@ $custom-colors: (
 "paragraph_color" : $paragraph_color
 );
 
+$font-weight: 700;
+
+
+
+
+
 
 $theme-colors: map-merge($custom-colors , $theme-colors);
 
