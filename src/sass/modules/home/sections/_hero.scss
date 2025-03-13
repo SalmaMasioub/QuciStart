@@ -1,0 +1,101 @@
+section {
+
+    .container-hero {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        background-image: url(../../../../../public/images/hero-bg-light.webp);
+        height: fit-content;
+        align-items: center;
+
+    }
+
+    .container {
+        width: 700px;
+        height: 400px;
+        position: relative;
+        display: block;
+        padding: 1rem;
+    }
+
+    .container-hero::before {
+        content: "";
+        background-image: url(../../../../../public/images/hero-bg-light.webp);
+        opacity: 3;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 49px;
+    }
+
+    .child-hero {
+        flex-direction: column;
+        justify-items: center;
+        padding-top: 20vh;
+    }
+
+    .play-but {
+        border: solid 1px transparent;
+        border-radius: 15px;
+        background-color: transparent;
+        padding: 1vw;
+        font-weight: bold;
+    }
+
+    .play-but:hover {
+        color: #388DA8;
+    }
+
+    .start-but {
+        background-color: #388DA8;
+        border: solid transparent;
+        ;
+        border-radius: 15px;
+        padding: 0.5vw;
+    }
+
+    .start-but:hover {
+        background-color: rgba(128, 128, 128, 0.077);
+    }
+
+    .father-main {
+        justify-items: center;
+        padding-top: 2vh;
+    }
+
+    .father-info {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #388DA8;
+        justify-content: space-between; }
+
+    .info-main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 2vh;
+        gap: 1vw;
+        align-items: center;
+        justify-items: center;
+
+    }
+
+    .content-info:hover {
+        text-decoration: #3E5055;
+    }
+}
+
+.content-info {
+    text-align: justify;
+}
+
+.adjust {
+    background: #d1e5ec;
+    border: solid 1px transparent;
+    padding: 1vw;
+    color: #388DA8;
+}
+.container-who-whe-are{
+    padding-left: 8vw;padding-top: 10vh;
+}
