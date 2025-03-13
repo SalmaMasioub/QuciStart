@@ -10,12 +10,13 @@ $second_color: #8B8E91;
 $paragraph_color : #8B8E91;
 
 $custom-colors: (
+  "first_color" : $first_color,
 "blue": $blue,
 "second_color": $second_color,
 "paragraph_color" : $paragraph_color
 );
 
-$font-weight: 700;
+
 
 
 

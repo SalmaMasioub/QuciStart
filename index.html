@@ -10,41 +10,50 @@
 <!-- navbar -->
 
 
-<nav class="navbar px-4 navbar-expand-lg bg-body-tertiary">
+<nav class="navbar px-4 navbar-expand-lg  px-lg-20 py-lg-3 ">
     <div class="container-fluid ">
-        <a class="navbar-brand" href="#"><img src="./public/images/main-logo.png" alt=""></a>
+        <a class="navbar-brand " href="#"><img src="./public/images/Quick.png"   alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse lg:d-flex lg:align-items-center justify-content-end gap-5"
+        <div class="collapse navbar-collapse lg:d-flex lg:align-item fw-bold s-center justify-content-end gap-5"
             id="navbarNavDropdown">
-            <ul class="navbar-nav d-flex align-items-lg-center gap-4 ">
-                <li class="nav-item">
+            <ul class="navbar-nav d-flex align-item fw-bold s-lg-center gap-4 ">
+                <li class="nav-item fw-bold ">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item fw-bold ">
                     <a class="nav-link" href="#">About</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item fw-bold ">
                     <a class="nav-link" href="#">Features</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item fw-bold ">
                     <a class="nav-link" href="#">Services</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item fw-bold ">
                     <a class="nav-link" href="#">Pricing</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Drop Down</a>
-                </li>
-                <li class="nav-item">
+                <li class="nav-item fw-bold  dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item fw-bold " href="#">Action</a></li>
+                      <li><a class="dropdown-item fw-bold " href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item fw-bold " href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                <li class="nav-item fw-bold ">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
 
             </ul>
-            <div class="d-flex align-items-center gap-3">
-                <button class="bg-blue rounded-5">Get Started</button>
+            <div class="d-flex align-item fw-bold s-center gap-3">
+                <button class="bg-blue rounded-5 text-white  border-0">Get Started</button>
+                
             </div>
         </div>
     </div>
