@@ -1,0 +1,22 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+
+
+
+$blue : #388DA8;
+$first_color : #3E5055;
+$second_color: #8B8E91;
+$paragraph_color : #8B8E91;
+
+$custom-colors: (
+"blue": $blue,
+"second_color": $second_color,
+"paragraph_color" : $paragraph_color
+);
+
+
+$theme-colors: map-merge($custom-colors , $theme-colors)
+
+
+
