@@ -50031,6 +50031,7 @@ textarea.form-control-lg {
   }
 }
 nav {
+  z-index: 10000;
   font-size: 17px;
 }
 nav button {
