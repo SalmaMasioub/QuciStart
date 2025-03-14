@@ -1,0 +1,59 @@
+.icon-features {
+    background-color: white;
+    color: $blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    width: 48px;
+    height: 48px;
+    font-size: 22px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.features-title {
+    font-size: 20px;
+}
+
+.feature_para {
+    font-size: 15px;
+    width: 100% !important;
+
+}
+
+.hover:hover {
+    background-color: $hover_color;
+}
+
+// \third div in section features
+.feature-para {
+
+    width: 100% !important;
+
+}
+
+.features-picture {
+    width: 50vw;
+}
+
+
+
+// & responsive
+@media (max-width:470px) {
+    .p-respo {
+        width: 90%;
+        text-align: center;
+    }
+
+    .feature_para {
+        font-size: 15px;
+        width: 100% !important;
+
+    }
+
+    .img_width {
+        width: 100% !important;
+    }
+}
