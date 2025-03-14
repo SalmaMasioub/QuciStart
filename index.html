@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,50 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 
+
 <body>
+    <nav class="navbar px-4 navbar-expand-lg  px-lg-20 py-lg-3 position-fixed top-0  bg-white w-100">
+        <div class="container-fluid ">
+            <a class="navbar-brand " href="#"><img src="./public/images/Quick.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse lg:d-flex lg:align-item fw-bold s-center justify-content-end gap-5"
+                id="navbarNavDropdown">
+                <ul class="navbar-nav d-flex align-item fw-bold s-lg-center gap-4 ">
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item fw-bold  dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item fw-bold " href="#">Action</a></li>
+                            <li><a class="dropdown-item fw-bold " href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item fw-bold " href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item fw-bold ">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
     <!-- navbar -->
 
 
@@ -44,13 +88,91 @@
                         <a class="nav-link" href="#">Contact</a>
                     </li>
 
-                </ul>
-                <div class="d-flex align-items-center gap-3">
-                    <button class="bg-blue rounded-5">Get Started</button>
+                    </ul>
+                    <div class="d-flex align-item fw-bold s-center gap-3">
+                        <button class="bg-blue rounded-5 text-white  border-0">Get Started</button>
+
+                </div>
+            </div>
+    </nav>
+    <!-- hero-section -->
+    <section>
+        <div class="container-hero">
+            <div class="child-hero">
+                <h1>welcome to <span class="text-blue
+                    ">Quick start</span></h1>
+                <p>Quickly start your project now and set the stage for success</p>
+                <button class="start-but">get started</button> <button class=play-but> <i class="bi bi-play-circle"></i>
+                    watch video</button>
+            </div>
+            <img class="w-25" src="./public/images/hero-services-img.webp" alt="">
+        </div>
+    </section>
+    <!-- main -->
+    <section>
+        <div class="father-main">
+            <div class="info-main">
+                <div class="cont-main">
+                    <h1><i class="bi bi-briefcase adjust "></i></h1>
+                    <div class="content-info">
+                        <h6>Lorem, ipsum dolor.</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                        </p>
+                    </div>
+                </div>
+                <div class="cont-main">
+                    <h1><i class="bi bi-briefcase adjust "></i></h1>
+                    <div class="content-info">
+                        <h6>Lorem, ipsum dolor.</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                        </p>
+                    </div>
+                </div>
+                <div class="cont-main">
+                    <h1><i class="bi bi-briefcase adjust "></i></h1>
+                    <div class="content-info">
+                        <h6>Lorem, ipsum dolor.</h6>
+                        <p>Lorem ipsum dolor sit amet consectetur
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </nav>
+        <br>
+        <!-- who we are section -->
+
+        <div class="d-flex align-items-center p-10 father-img">
+            <div class="text-content w-50">
+                <p class="text-muted">who we are</p>
+                <h2>Unleashing Potential with Creative Strategy</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua.</p>
+                <ul>
+                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                    <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate.</li>
+                </ul>
+                <button class="button"><a href="#" class="read-more">Read More →</a></button>
+            </div>
+            <div class="div1 d-flex ">
+                <img class="img-1" src="./public/images/about-company-1.jpg" alt="">
+                <div class="div2">
+                    <img class="img-2-1" src="./public/images/about-company-2.jpg" alt="">
+                    <br><br>
+                    <img class="img-2-2" src="./public/images/about-company-3.jpg" alt="">
+                </div>
+                </div>
+            </div>
+        <div class="logo-container">
+            <img src="./public/images/client-1.png" alt="MyJob">
+            <img src="./public/images/client-2.png" alt="MyJob">
+            <img src="./public/images/client-3.png" alt="MyJob">
+            <img src="./public/images/client-4.png" alt="MyJob">
+            <img src="./public/images/client-5.png" alt="MyJob">
+            <img src="./public/images/client-6.png" alt="MyJob">
+            </div>
+    
 
     <!-- ~ features section -->
     <div id="features" class="features d-flex flex-column align-items-center justify-content-center">
@@ -321,6 +443,19 @@
 
 
 
+    </section>
+    </section>
+    <section>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- contact -->
 
 
 
@@ -498,5 +633,6 @@
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 
 </html>

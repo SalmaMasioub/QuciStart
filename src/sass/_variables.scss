@@ -3,19 +3,21 @@
 
 
 
-
+$bg_color:#F7FBFC;
 $blue : #388DA8;
 $first_color : #3E5055;
 $second_color: #8B8E91;
 $paragraph_color : #8B8E91;
 
 $custom-colors: (
+  "bg_color": $bg_color,
+  "first_color" : $first_color,
 "blue": $blue,
 "second_color": $second_color,
 "paragraph_color" : $paragraph_color
 );
 
-$font-weight: 700;
+
 
 
 
